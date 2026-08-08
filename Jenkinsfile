@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository'
-                git ''
+                git branch:'main', url:'https://github.com/siddhi3022/rrrr.git'
             }
         }
 
